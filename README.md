@@ -1,5 +1,5 @@
 # Moreira Projetos - Landing Page
-![Moreira Projetos Logo](/_IV/MOREIRA LOGO.png)
+![Moreira Projetos Logo](/_IV/MOREIRA_LOGO.png)
 
 Projeto inicial de desenvolvimento de uma Landing Page direcionada a conversão de público online a possíveis clientes. Os requisitos do cliente foram baseados em outro website de meu desenvolvimento e um wireframe inicial. Sendo assim, foi estudado que o modelo adqueado aos requisitos foi o formato Landing Page de apresentação de empresa, projetos e dúvidas frequentes de seus clientes. Além de o projeto de Front-End, será desenvolvido um sistema de envio de email para interagir com o servidor de escolha do cliente. A linguagem de desenvolvimento deste servidor ainda está a ser definida.
 ### Ferramentas de Desenvolvimento Utilizadas
