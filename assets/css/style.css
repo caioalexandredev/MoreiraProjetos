@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.menu-principal{
+	padding: 10px 0px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F4F4F4 100%), #FFFFFF;
+	box-shadow: 0px 10px 27px rgba(0, 0, 0, 0.08);
+}
+
+.menu-principal ul li a{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 18px;
+	color: #575454;
+}
+
+.menu-principal .logo{
+	width: auto;
+	
+}
+
+.menu-principal ul .item-destak{
+	background: #FF3232;
+	border-radius: 4px;
+}
+
+.menu-principal ul .active{
+	color: #FF3232;
+}
+
+.menu-principal ul li a:hover{
+	color: #FF3232;
+}
+
+.menu-principal ul .item-destak a{
+	color: #FFF !important;
+	padding-right: 20px !important;
+	padding-left: 20px !important;
+}
+
+.banner img{
+	width: 100%;
+}
+
+#presentation{
+	background: #F6F6F6;
+	padding: 60px 0px;
+}
+
+#presentation h1{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 45px;
+	padding-bottom: 15px;
+}
+
+#presentation h1 span{
+	color: #787878;
+}
+
+#presentation p{
+	font-family: 'Exo 2', sans-serif;
+	color: #575454;
+}
+
+#presentation article{
+	margin-top: 80px;
+}
+
+.section-title.dark h1{
+	color: #FFF;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+}
+
+.section-title.dark p{
+	color: #DCDCDC;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.section-title.light h1{
+	color: #FF3232;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+}
+
+.section-title.lightd h1{
+	color: #5A5A5A;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	margin-bottom: 0px;
+}
+
+.section-title.light p, .section-title.lightd p{
+	color: #656565;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.section-title.lightd p{
+	padding-bottom: 20px;
+}
+
+.container-img-presentation{
+	padding: 20px;
+	width: 100%;
+}
+
+.container-img-presentation img{
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: -15px 15px 26px -3px rgba(0, 0, 0, 0.33);
+}
+
+#presentation-cards{
+	padding: 70px;
+	background-image: url("../images/card-presentation.png");
+}
+
+#presentation-cards .card{
+	border: none;
+	height: 450px;
+	margin-top: 30px;
+}
+
+#presentation-cards .card h5{
+	text-align: center;	
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	color: #4E4E4E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#presentation-cards .card p{
+	text-align: justify;	
+	font-family: 'Exo 2', sans-serif;
+	color: #888888;
+	font-size: 15px;
+}
+
+#functions{
+	padding: 70px;	
+}
+
+#functions h1{
+	color: #FF3232;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	margin-bottom: 0px;
+}
+
+#functions .desc{
+	color: #656565;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.text-desc{
+	font-family: 'Exo 2', sans-serif;
+	color: #575454;
+	font-size: 17px;
+	text-align: justify;
+	padding-left: 20px;
+}
+
+.title-desc{
+	color: #4E4E4E;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	font-size: 40px;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+#functions img{
+	border-radius: 7px;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+#functions figure{
+	padding: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+	 background: #FF3232 !important;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+    width: 40px !important
+}
+
+.img-btn-prev-function, .img-btn-next-function, .img-btn-prev-order, .img-btn-next-order{
+	width: 90%;
+	box-shadow: none !important;
+	position: relative;
+	top: 120px;
+	cursor: pointer;
+}
+
+#orders{
+	padding: 70px;
+	background-image: url("../images/card-presentation.png");
+}
+
+#carousel-orders{
+	margin-top: 20px;
+}
+
+.order-img{
+	padding: 0px 10px;
+}
+
+.order-img img{
+	box-shadow: -15px 16px 25px rgba(0, 0, 0, 0.23);
+	border-radius: 10px 10px 0px 0px;
+}
+
+.order-img figcaption{
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#questions{
+	padding: 70px 0px;
+	color: #FDFDFD;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #A15B5B;
+    background-color: #ffe7e7;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  700;
+}
+
+.accordion-button {
+    color: #A15B5B;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  500;
+}
+
+.accordion-body{
+	color: #656565;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
