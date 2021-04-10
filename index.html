@@ -4,18 +4,69 @@
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Moreira Projetos</title>
+		<title>Moreira - Projetos Maquetes Eletrônicas</title>
+		<!-- Favicon -->
+		<link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+		<link rel="manifest" href="fav/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="fav/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+		<!-- SEO Geral -->
+		<title>Moreira - Projetos Maquetes Eletrônicas</title>
+		<meta name="description" content="Moreira - Projetos Maquetes Eletrônicas">
+		<link rel="canonical" href="http://moreiraprojetos.com.br/">
+		<meta name="author" content="Caio Alexandre Design @eu_caioalex">
+		<meta name="subject" content="Projetos e maquetes eletrônicas. Adquira já seu Projeto.">
+
+		<!-- Google+ / Schema.org -->
+		<meta itemprop="name" content="Moreira - Projetos Maquetes Eletrônicas">
+		<meta itemprop="description" content="Projetos e maquetes eletrônicas. Adquira já seu Projeto.">
+		<meta itemprop="image" content="assets/images/Foto-Perfil.png">
+
+		<!-- Open Graph Facebook -->
+		<meta property="og:title" content="Moreira - Projetos Maquetes Eletrônicas">
+		<meta property="og:description" content="Projetos e maquetes eletrônicas. Adquira já seu Projeto."/>
+		<meta property="og:url" content="http://moreiraprojetos.com.br/">
+		<meta property="og:site_name" content="Moreira - Projetos Maquetes Eletrônicas" />
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="assets/images/Foto-Perfil.png">
+		<meta property="og:image:alt" content="Logo Moreira - Projetos Maquetes Eletrônicas">
+
+		<!-- Twitter -->
+		<meta name="twitter:title" content="Moreira - Projetos Maquetes Eletrônicas">
+		<meta name="twitter:description" content="Projetos e maquetes eletrônicas. Adquira já seu Projeto..">
+		<meta name="twitter:url" content="http://daimondsolar.com/">
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:image" content="assets/images/Foto-Perfil.png">
+		<meta name="twitter:image:alt" content="Moreira - Projetos Maquetes Eletrônicas">
+		<meta name="twitter:site" content="@("@moreiraprojetos")">
+		
 		<!-- Owl Carousel css -->
 		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 		<!-- Bootstrap CSS -->
 		<link href="assets/css/bootstrap.css" rel="stylesheet">
+		<!-- AOS Animate -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<!-- Personal -->
 		<link href="assets/css/style.css"  rel="stylesheet">
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg menu-principal">
+			<nav class="navbar navbar-expand-lg menu-principal fixed-top">
 				<div class="container">
 					<a class="navbar-brand" href="#">
 						<img class="logo" src="assets/images/logo.png" alt="Logo Moreira Projetos">
@@ -26,28 +77,28 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">Início</a>
+							<a class="nav-link active" id="home-link" onclick="scrollto('.banner')" aria-current="page" href="#">Início</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Benefícios</a>
+							<a class="nav-link" id="presentation-link" onclick="scrollto('#presentation-cards')" href="#">Benefícios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Como Funciona</a>
+							<a class="nav-link" id="functions-link" onclick="scrollto('#functions')" href="#">Como Funciona</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Nossos Trabalhos</a>
+							<a class="nav-link" id="orders-link" onclick="scrollto('#orders')" href="#">Nossos Trabalhos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Dúvidas</a>
+							<a class="nav-link" id="questions-link" onclick="scrollto('#questions')"  href="#">Dúvidas</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Sobre</a>
+							<a class="nav-link" id="projects-link" onclick="scrollto('#projects')" href="#">Projetos</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">Projetos</a>
+							<a class="nav-link" id="firm-link" onclick="scrollto('#firm')" href="#">Sobre</a>
 						</li>
 						<li class="nav-item item-destak">
-							<a class="nav-link" href="#">Contato</a>
+							<a class="nav-link" id="form-link" onclick="scrollto('#form')" href="#">Contato</a>
 						</li>
 					</ul>
 				</div>
@@ -63,9 +114,9 @@
 		<section id="presentation">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-1"></div>
-					<div class="col-md-5">
-						<article>
+					<div class="col-lg-1"></div>
+					<div class="col-lg-5">
+						<article data-aos="fade-right" data-aos-duration="2000" class="aos-init aos-animate">
 							<h1>
 								Conhecendo a </br><span>Moreira Projetos</span>
 							</h1>
@@ -77,12 +128,12 @@
 							</p>
 						<article>
 					</div>
-					<div class="col-md-5">
-						<figure class="container-img-presentation">
+					<div class="col-lg-5">
+						<figure data-aos="fade-left" data-aos-duration="2000" class="container-img-presentation aos-init aos-animate">
 							<img src="assets/images/presentation.png" alt="Imagem de Projeto Desenvolvido pela moreira">
 						</figure>
 					</div>
-					<div class="col-md-1"></div>
+					<div class="col-lg-1"></div>
 				</div>
 			</div>
 		</section>
@@ -97,7 +148,7 @@
 					<div class="col-lg-6">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="card">
+								<div data-aos="flip-left" data-aos-duration="1000" class="card aos-init aos-animate">
 									<img src="assets/images/card-presentation-1.png" class="card-img-top" alt="...">
 									<div class="card-body">
 										<h5 class="card-title">Plataforma Bim</h5>
@@ -106,7 +157,7 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="card">
+								<div data-aos="flip-left" data-aos-duration="1000" class="card aos-init aos-animate">
 									<img src="assets/images/card-presentation-2.png" class="card-img-top" alt="...">
 									<div class="card-body">
 										<h5 class="card-title">Projetos Arquitetonicos Complementares</h5>
@@ -119,7 +170,7 @@
 					<div class="col-lg-6">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="card">
+								<div data-aos="flip-left" data-aos-duration="1000" class="card aos-init aos-animate">
 									<img src="assets/images/card-presentation-3.png" class="card-img-top" alt="...">
 									<div class="card-body">
 										<h5 class="card-title">Animações 3d e Realidade Aumentada</h5>
@@ -128,7 +179,7 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="card">
+								<div data-aos="flip-left" data-aos-duration="1000" class="card aos-init aos-animate">
 									<img src="assets/images/card-presentation-4.png" class="card-img-top" alt="...">
 									<div class="card-body">
 										<h5 class="card-title">Projetos Prontos para Aprovação na Prefeitura</h5>
@@ -148,19 +199,20 @@
 					<h1>Como Funciona</h1>
 					<p class="desc">Confira abaixo os processos envolvidos no desenvolvimentos de nossos projetos</p>
 				</article>
+				<div class="aviso">Deslize para a esquerda os passos abaixo para saber mais!</div>
 				<div class="row">
 					<div class="col-md-1"><img class="img-btn-prev-function" src="assets/images/prev_functions.png" alt=""></div>
 					<div class="col-md-10">
 						<div id="carousel-functions" class="owl-carousel owl-theme">
 							<div class="item">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<h2 class="title-desc">Atendimento</h2>
 										<p class="text-desc">
 											Ficamos localizado no estado do Tocantins, projetos para outros estados o atendimento é de forma remota ou presencial de acordo com a necessidade do projeto, o suporte online funciona em horários flexíveis, tanto para consultoria quanto para confecção dos projetos.
 										</p>
 									</div>
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<figure>
 											<img src="assets/images/function_1.png">
 										</figure>
@@ -169,75 +221,75 @@
 							</div>
 							<div class="item">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<h2 class="title-desc">Pós-Reunião</h2>
 										<p class="text-desc">
 											Sendo ela de forma remota ou presencial, é fechamento do projeto passamos para próximas etapas.
 										</p>
 									</div>
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<figure>
-											<img src="assets/images/function_1.png">
+											<img src="assets/images/function_2.jpg">
 										</figure>
 									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<h2 class="title-desc">Programa de Necessidades</h2>
 										<p class="text-desc">
 											Que tem por objetivo levantar os desejos dos clientes, além de suas principais necessidades, na busca da resposta mais adequada acerca do projeto a ser desenvolvido.
 										</p>
 									</div>
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<figure>
-											<img src="assets/images/function_1.png">
+											<img src="assets/images/function_3.jpg">
 										</figure>
 									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<h2 class="title-desc">Estudos Preliminares</h2>
 										<p class="text-desc">
 											São os primeiros esboços, croquis e esquemas, a partir dos quais o projeto começa a se definir. Inicia-se após assinatura do contrato.
 										</p>
 									</div>
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<figure>
-											<img src="assets/images/function_1.png">
+											<img src="assets/images/function_4.jpg">
 										</figure>
 									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<h2 class="title-desc">Anteprojeto</h2>
 										<p class="text-desc">
 											Quando as plantas, croquis e detalhamentos ganham maior clareza e dimensionamentos mais precisos. Nesta etapa os clientes têm total liberdade de propor alterações ao projeto.
 										</p>
 									</div>
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<figure>
-											<img src="assets/images/function_1.png">
+											<img src="assets/images/function_5.jpg">
 										</figure>
 									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<h2 class="title-desc">Projeto Executivo</h2>
 										<p class="text-desc">
 											É o projeto que será utilizado na execução dos ambientes, envolvendo detalhes arquitetônicos, além das imagens de cada ambiente.
 										</p>
 									</div>
-									<div class="col-md-6">
+									<div class="col-lg-6">
 										<figure>
-											<img src="assets/images/function_1.png">
+											<img src="assets/images/function_6.jpg">
 										</figure>
 									</div>
 								</div>
@@ -255,6 +307,7 @@
 					<h1>Nossos Trabalhos</h1>
 					<p>Clientes com seus projetos concluídos com sucesso!</p>
 				</article>
+				<div class="aviso" style="color: #fff">Deslize a imagem para ver mais!</div>
 				<div class="row">
 					<div class="col-md-1"><img class="img-btn-prev-order" src="assets/images/prev_orders.png" alt=""></div>
 					<div class="col-md-10">
@@ -298,14 +351,14 @@
 				</article>
 				<div class="row">
 					<div class="col-md-6">
-						<div class="accordion" id="accordionExample">
+						<div data-aos="fade-right" data-aos-duration="2000" class="aos-init aos-animate accordion" id="accordionExample">
 							<div class="accordion-item">
 								<h2 class="accordion-header" id="headingOne">
-									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 										Projeto Arquitetônico
 									</button>
 								</h2>
-								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+								<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 									<div class="accordion-body">
 										Planta baixa, cortes, planta de cobertura, planta de localização, planta de situação, Tabela de esquadrias, isométricos em 3D, fachada Posterior e inferior, imagens renderizadas 
 									</div>
@@ -349,15 +402,17 @@
 							</div>
 						</div>
 					</div>
+					
+					
 					<div class="col-md-6">
-						<div class="accordion" id="accordion-section-2">
+						<div data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate accordion" id="accordion-section-2">
 							<div class="accordion-item">
 								<h2 class="accordion-header" id="headingFive">
-									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
 										Maquete eletrônica
 									</button>
 								</h2>
-								<div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordion-section-2">
+								<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion-section-2">
 									<div class="accordion-body">
 										Vídeo completo dos ambientes, é do empreendimento, planta de layout, imagens renderizados.
 										<br><br><strong>Os itens apresentados acima podem sofrer alterações, conforme o pacote contratado, de acordo com a necessidade do cliente.</strong>
@@ -382,7 +437,7 @@
 										É possivel a moreira projetos elabora um projeto para meu terreno sem visitá-lo? 
 									</button>
 								</h2>
-								<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+								<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion-section-2">
 									<div class="accordion-body">
 										Sim, utilizamos de diversos softwares, e tecnologia, que nos traz a possibilidade de trabalharmos em um projeto mesmo de longe. Fazemos uma análise do plano diretor e códigos municipais da sua cidade, e utilizamos ferramenta de georreferenciamento para analisar aspectos da posição solar e dos ventos.
 									</div>
@@ -394,13 +449,107 @@
 										Os projetos possuem responsabilidade técnica? 
 									</button>
 								</h2>
-								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion-section-2">
 									<div class="accordion-body">
 										<strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
 									</div>
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="projects">
+			<div class="container">
+				<article class="section-title lightd">
+					<h1>Projetos</h1>
+					<p class="desc">Conheça alguns de nossos trabalhos</p>
+				</article>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-6"><button type="button" style="width: 100%;" onclick="btnProjects('residencial');" class="btn btn-secondary btnresidencial">RESIDENCIAL</button></div>
+							<div class="col-6"><button type="button" style="width: 100%;" onclick="btnProjects('comercial');" class="btn btn-secondary btncomercial">COMERCIAL</button></div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-6"><button type="button" style="width: 100%;" onclick="btnProjects('industrial');" class="btn btn-secondary btnindustrial">INDUSTRIAL</button></div>
+							<div class="col-6"><button type="button" style="width: 100%;" onclick="btnProjects('urbanismo');" class="btn btn-secondary btnurbanismo">URBANISMO</button></div>
+						</div>
+					</div>
+				</div>
+				<div id="carousel-projs" class="owl-carousel owl-theme">
+					<div class="item residencial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-01.png" alt="">
+						</figure>
+					</div>
+					<div class="item residencial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-02.png" alt="">
+						</figure>
+					</div>
+					<div class="item residencial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-03.png" alt="">
+						</figure>
+					</div>
+					
+					<div class="item comercial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-04.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item comercial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-05.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item comercial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-06.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item industrial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-07.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item industrial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-08.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item industrial">
+						<figure class="proj-img">
+							<img src="assets/images/proj-09.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item urbanismo">
+						<figure class="proj-img">
+							<img src="assets/images/proj-10.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item urbanismo">
+						<figure class="proj-img">
+							<img src="assets/images/proj-11.jpg" alt="">
+						</figure>
+					</div>
+					
+					<div class="item urbanismo">
+						<figure class="proj-img">
+							<img src="assets/images/proj-12.jpg" alt="">
+						</figure>
 					</div>
 				</div>
 			</div>
@@ -414,7 +563,7 @@
 				</article>
 				<div class="row">
 					<div class="col-md-4">
-						<figure>
+						<figure data-aos="zoom-in" data-aos-duration="2000" class="aos-init aos-animate">
 							<img src="assets/images/firm_1.png" alt="">
 							<figcaption>
 								Alexandre Moreira<br>
@@ -423,7 +572,7 @@
 						</figure>
 					</div>
 					<div class="col-md-4">
-						<figure>
+						<figure data-aos="zoom-in" data-aos-duration="2000" class="aos-init aos-animate">
 							<img src="assets/images/firm_2.png" alt="">
 							<figcaption>
 								Célio Marques Feitosa<br>
@@ -432,7 +581,7 @@
 						</figure>
 					</div>
 					<div class="col-md-4">
-						<figure>
+						<figure data-aos="zoom-in" data-aos-duration="2000" class="aos-init aos-animate">
 							<img src="assets/images/firm_3.png" alt="">
 							<figcaption>
 								Marcus Izaquiel<br>
@@ -482,7 +631,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<h1>Preencha os dados que nos falamos com você!</h1>
+						<h1 data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate">Preencha os dados que nos falamos com você!</h1>
 					</div>
 					<div class="col-md-6">
 						<form method="POST" action="">
@@ -494,7 +643,7 @@
 							</div>
 							<div class="mb-3 row">
 								<div class="col-md-6">
-									<input type="text" class="form-control" placeholder="Motivo de Contato">
+									<input type="text" class="form-control mobile-correction" placeholder="Motivo de Contato">
 								</div>
 								<div class="col-md-6">
 									<input type="email" class="form-control" placeholder="Telefone">
@@ -504,6 +653,7 @@
 							<div class="mb-3">
 							    <textarea class="form-control" rows="6"></textarea>
 							</div>
+							<button type="button" style="width: 100%; margin-bottom: 0px;" class="btn btn-danger btn-form">Enviar dados de Contato</button>
 						</form>
 					</div>
 				</div>
@@ -518,12 +668,14 @@
     <script src="assets/js/bootstrap.min.js"></script>
 	<!-- Owl Carousel Js Plugin -->
 	<script src="assets/js/owl.carousel.js"></script>
+	<!-- AOS Animate -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script>
 		var slider = $('#carousel-functions').owlCarousel({
 			items:1,
             dots: true,
 			loop:false,
-			margin:0
+			margin:0,
 		})
 		
 		$('.img-btn-prev-function').click(function () {
@@ -538,7 +690,16 @@
 			items:2,
             dots: false,
 			loop:false,
-			margin: 10
+			margin: 10,
+			responsive: {
+				991: {
+					items: 2
+				},
+				
+				0: {
+					items: 1
+				}
+			}
 		})
 		
 		$('.img-btn-prev-order').click(function () {
@@ -548,6 +709,137 @@
 		$('.img-btn-next-order').click(function () {
 			slider2.trigger('next.owl.carousel');
 		});
+
+		function scrollto(id){
+			$('#navbarSupportedContent').collapse('hide');
+			$('html, body').animate({ scrollTop: $(id).offset().top - 50 }, 200);
+		}
+		
+		function removerclasseslink(){
+
+			if ($('#form-link').is('.active')){
+				$( "#form-link" ).removeClass( "active" );
+
+			}else if ($('#firm-link').is('.active')){
+				$( "#firm-link" ).removeClass( "active" );
+
+			}else if ($('#projects-link').is('.active')){
+				$( "#projects-link" ).removeClass( "active" );
+
+			}else if ($('#questions-link').is('.active')){
+				$( "#questions-link" ).removeClass( "active" );
+
+			}else if ($('#orders-link').is('.active')){
+				$( "#orders-link" ).removeClass( "active" );
+
+			}else if ($('#functions-link').is('.active')){
+				$( "#functions-link" ).removeClass( "active" );
+
+			}else if ($('#presentation-link').is('.active')){
+				$( "#presentation-link" ).removeClass( "active" );
+
+			}else if ($('#home-link').is('.active')){
+				$( "#home-link" ).removeClass( "active" );
+
+			}
+
+		}	
+
+		$( window ).scroll(function() {
+				if($("#form").offset().top -150 < $(document).scrollTop()){
+					removerclasseslink();
+					
+				}else if($("#firm").offset().top - 150 < $(document).scrollTop()){
+					removerclasseslink();
+					$( "#firm-link" ).addClass( "active" );
+					
+				}else if($("#projects").offset().top - 150 < $(document).scrollTop()){
+					removerclasseslink();
+					$( "#projects-link" ).addClass( "active" );
+					
+				}else if($("#questions").offset().top - 150 < $(document).scrollTop()){
+					removerclasseslink();
+					$( "#questions-link" ).addClass( "active" );
+
+				}else if($("#orders").offset().top - 100 < $(document).scrollTop()){
+					removerclasseslink();
+					$( "#orders-link" ).addClass( "active" );
+
+				}else if($("#functions").offset().top - 100< $(document).scrollTop()){
+					removerclasseslink();
+					$( "#functions-link" ).addClass( "active" );
+
+				}else if($("#presentation-cards").offset().top - 100< $(document).scrollTop()){
+					removerclasseslink();
+					$( "#presentation-link" ).addClass( "active" );
+
+				}else if($(".banner").offset().top - 80< $(document).scrollTop()){
+					removerclasseslink();
+					$( "#home-link" ).addClass( "active" );
+				}
+
+			});
+			
+			AOS.init();
+			
+			var slider3 = $('#carousel-projs').owlCarousel({
+				items:3,
+				dots: false,
+				loop:false,
+				margin: 10,
+				responsive: {
+					991: {
+						items: 3
+					},
+					
+					0: {
+						items: 1
+					}
+				}
+			})
+			
+			function displayNoneProjects(){
+				if (!$('.residencial').parent().is('.d-none')){
+					$( ".residencial" ).parent().addClass( "d-none" );
+				}
+				
+				if (!$('.comercial').parent().is('.d-none')){
+					$( ".comercial" ).parent().addClass( "d-none" );
+				}
+
+				if (!$('.industrial').parent().is('.d-none')){
+					$( ".industrial" ).parent().addClass( "d-none" );
+				}
+				
+				if (!$('.urbanismo').parent().is('.d-none')){
+					$( ".urbanismo" ).parent().addClass( "d-none" );
+				}
+			}
+			
+			function nobtnactive(){
+			
+				if ($('.btnresidencial').is('.active')){
+					$( ".btnresidencial" ).removeClass( "active" );
+				}
+				
+				if ($('.btncomercial').is('.active')){
+					$( ".btncomercial" ).removeclass( "active" );
+				}
+
+				if ($('.btnindustrial').is('.active')){
+					$( ".btnindustrial" ).removeClass( "active" );
+				}
+				
+				if ($('.btnurbanismo').is('.active')){
+					$( ".btnurbanismo" ).removeClass( "active" );
+				}
+			}
+			
+			function btnProjects(tipo){
+				nobtnactive();
+				displayNoneProjects();
+				$( "." + tipo ).parent().removeClass( "d-none" );
+			}
 		
 	</script>
   </body>

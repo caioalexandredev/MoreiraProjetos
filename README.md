@@ -3,17 +3,24 @@
 
 Projeto inicial de desenvolvimento de uma Landing Page direcionada a conversão de público online a possíveis clientes. Os requisitos do cliente foram baseados em outro website de meu desenvolvimento e um wireframe inicial. Sendo assim, foi estudado que o modelo adqueado aos requisitos foi o formato Landing Page de apresentação de empresa, projetos e dúvidas frequentes de seus clientes. Além de o projeto de Front-End, será desenvolvido um sistema de envio de email para interagir com o servidor de escolha do cliente. A linguagem de desenvolvimento deste servidor ainda está a ser definida.
 ### Ferramentas de Desenvolvimento Utilizadas
-1. Website HTML, Css e Javascript + Bootstrap 5.0.0
+1. Website HTML, Css e Javascript + Bootstrap 5.0.0 + PHP 8
 1. Otimização de Carregamento em imagens
 1. Seo e Page Speed do Google: 90 - 95% (O modo que eu programo é voltado a rapidez e a forma que trato as imagens)
 1. Suporte nos primeiros 6 meses (Sem Custos) Abril - Outubro
 1. Redirecionamento de email e integrações com aplicação de API (google analytics ou desejado)
 ### Etapas Principais de Desenvolvimento
-- [ ] Wireframe Digital (Entrega Inicia o Projeto)
-- [ ] Prototipo Visual - 7 dias (Data a ser Definida)
-- [ ] Prototipo Interativo - 7 dias (Data a ser Definida)
-- [ ] Produto Final pronto para a hospedagem - 7 dias (Data a ser Definida)
+- [x] Inicio das Projeções (11/03/2021)
+- [x] Wireframe Digital (20/03/2021)
+- [x] Prototipo Visual - (28/03/2021)
+- [x] Prototipo Interativo (Html, Css e Javascript) - (05/04/2021)
+- [ ] Produto Final pronto para a hospedagem (Otimizações e PHP Mail)(10/04/2021)
 
 **Observação:** Solicitado 4 dia de tolerância a mais nos prazo maximos sendo assim, a partir da entrega do projeto do wireframe digital, 21 (etapas principais de desenvolvimento) + 4 dias de tolerância, resulta em 25 dias de desenvolvimento corrido.
 
 **Observação:** Demais atualizações do projeto, que serão em pequenas etapas serão vistas através do commits (Atualizações do Código-Fonte).
+
+### Protótipo Visual
+O protótipo foi feito utilizando a ferramenta colaborariva de prototipação Figma com apoio do software de manipulção de imagens photoshop.
+
+#### Link do Protótipo Visual Online
+https://www.figma.com/proto/9D7EMVMNyPcf4NYUntjfan/Moreira-Projetos---Prot%C3%B3tipo-Visual?node-id=1%3A2&scaling=scale-down-width&page-id=0%3A1

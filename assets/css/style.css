@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 
+.banner{
+	padding-top: 80px;
+}
+
 .ml-auto {
     margin-left: auto !important;
 }
+
+/*========= Menu =========*/
 
 .menu-principal{
 	padding: 10px 0px;
@@ -40,9 +46,24 @@
 	padding-left: 20px !important;
 }
 
+/*Mobile Media Config*/
+@media only screen and (max-width: 1199px){
+	#firm-link{
+		display: none;
+	}
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/*========= Menu =========*/
+
 .banner img{
 	width: 100%;
 }
+
+/*========= Presentation =========*/
 
 #presentation{
 	background: #F6F6F6;
@@ -55,6 +76,11 @@
 	font-weight: 800;
 	line-height: 45px;
 	padding-bottom: 15px;
+}
+@media only screen and (max-width: 992px){
+	#presentation h1, #presentation p{
+		text-align: center;
+	}
 }
 
 #presentation h1 span{
@@ -69,12 +95,38 @@
 #presentation article{
 	margin-top: 80px;
 }
+@media only screen and (max-width: 1199px){
+	#presentation article{
+		margin-top: 30px;
+	}
+}
+
+.container-img-presentation{
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.container-img-presentation img{
+	border-radius: 10px;
+	width: 100%;
+	box-shadow: -15px 15px 26px -3px rgba(0, 0, 0, 0.33);
+}
+@media only screen and (max-width: 1199px){
+	.container-img-presentation img{
+		max-width: 475px;
+		margin: 0 auto;
+	}
+}
+
+/*========= Presentation Cards =========*/
 
 .section-title.dark h1{
 	color: #FFF;
 	text-align: center;
 	font-family: 'Exo 2', sans-serif;
-	font-weight:  800;
+	font-weight: 800;
+	font-size: 40px;
 }
 
 .section-title.dark p{
@@ -88,6 +140,7 @@
 	text-align: center;
 	font-family: 'Exo 2', sans-serif;
 	font-weight:  800;
+	font-size: 40px;
 }
 
 .section-title.lightd h1{
@@ -96,6 +149,7 @@
 	font-family: 'Exo 2', sans-serif;
 	font-weight:  800;
 	margin-bottom: 0px;
+	font-size: 40px;
 }
 
 .section-title.light p, .section-title.lightd p{
@@ -108,19 +162,8 @@
 	padding-bottom: 20px;
 }
 
-.container-img-presentation{
-	padding: 20px;
-	width: 100%;
-}
-
-.container-img-presentation img{
-	border-radius: 10px;
-	width: 100%;
-	box-shadow: -15px 15px 26px -3px rgba(0, 0, 0, 0.33);
-}
-
 #presentation-cards{
-	padding: 70px;
+	padding: 70px 20px;
 	background-image: url("../images/card-presentation.png");
 }
 
@@ -146,8 +189,10 @@
 	font-size: 15px;
 }
 
+/*========= Functions =========*/
+
 #functions{
-	padding: 70px;	
+	padding: 70px 20px;	
 }
 
 #functions h1{
@@ -156,6 +201,7 @@
 	font-family: 'Exo 2', sans-serif;
 	font-weight:  800;
 	margin-bottom: 0px;
+	font-size: 40px;
 }
 
 #functions .desc{
@@ -197,6 +243,24 @@
 .owl-theme .owl-dots .owl-dot span{
     width: 40px !important
 }
+@media only screen and (max-width: 767px){
+	.owl-theme .owl-dots .owl-dot span{
+		width: 30px !important
+	}
+}
+
+.aviso{
+	text-align: center;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	display: none;
+}
+@media only screen and (max-width: 767px){
+	.aviso{
+		display: block;
+	}
+}
 
 .img-btn-prev-function, .img-btn-next-function, .img-btn-prev-order, .img-btn-next-order{
 	width: 90%;
@@ -205,9 +269,16 @@
 	top: 120px;
 	cursor: pointer;
 }
+@media only screen and (max-width: 767px){
+	.img-btn-prev-function, .img-btn-next-function, .img-btn-prev-order, .img-btn-next-order{
+		display: none;
+	}
+}
+
+/*========= Orders =========*/
 
 #orders{
-	padding: 70px;
+	padding: 70px 20px;
 	background-image: url("../images/card-presentation.png");
 }
 
@@ -232,6 +303,8 @@
 	padding: 5px 10px;
 	border-radius: 0px 0px 10px 10px;
 }
+
+/*========= Questions =========*/
 
 #questions{
 	padding: 70px 0px;
@@ -259,6 +332,36 @@
 .accordion-button:not(.collapsed)::after {
     background-image: none;
 }
+
+/*========= Projects =========*/
+
+#projects{
+	background-color: #F6F6F6;
+	padding: 50px 20px;
+}
+
+.btn-secondary{
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	font-size: 18px;
+	background-color: #C4C4C4;
+	color: #6C6C6C;
+	border-color: #C4C4C4;
+	margin-bottom: 20px;
+	transition: 0.3s linear;
+}
+.btn-secondary:hover{
+	background-color: #FF3232;
+	border-color: #FF3232;
+	filter: drop-shadow(-12px 5px 10px rgba(0, 0, 0, 0.3));
+}
+
+.proj-img img{
+	border-radius: 15px;
+	padding: 10px
+}
+
+/*========= Firm =========*/
 
 #firm{
 	padding: 70px 0px;
@@ -290,6 +393,8 @@
 	font-size: 14px;
 }
 
+/*========= Contact =========*/
+
 #contact{
 	background: linear-gradient( 90deg, #FF4646 50%, #C60101 50%);
 }
@@ -309,6 +414,13 @@
 	padding: 20px 30px 10px 40px;
 }
 
+@media only screen and (max-width: 1199px){
+	#contact .whatsapp, #contact .local, #contact .email{
+		text-align: center;
+		padding: 20px 30px 10px 20px;
+	}
+}
+
 #contact a{
 	color: #FFF;
 	text-decoration: none;
@@ -319,6 +431,14 @@
 	font-weight:  700;
 	font-size: 20px;
 	line-height: 5px;
+}
+@media only screen and (max-width: 1199px){
+	#contact a h6{
+		font-family: 'Exo 2', sans-serif;
+		font-weight:  700;
+		font-size: 20px;
+		line-height: 20px;
+	}
 }
 
 #contact a p{
@@ -334,19 +454,35 @@
 	position: relative;
 	top: 8px;
 }
+@media only screen and (max-width: 1199px){
+	#contact article{
+		padding-left: 0px;
+	}
+}
 
 #contact img{
 	float: left;
 	position: relative;
 	top: 10px;
 }
+@media only screen and (max-width: 1199px){
+	#contact article{
+		float: none;
+	}
+
+	#contact img{
+		float: none;
+	}
+}
 
 #contact .email img{
 	top: 15px;
 }
 
+/*========= Form =========*/
+
 #form{
-	padding: 70px;
+	padding: 70px 20px;
 	background-image: url(../images/pattern.png);
 }
 
@@ -359,8 +495,8 @@
 
 #form form input{
 	border:none !important;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-left: 20px;
 	box-shadow: -6px 7px 13px rgba(0, 0, 0, 0.15) !important;
 }
@@ -371,6 +507,34 @@
 	font-weight:  800;
 	font-size: 17px;
 	color: #FFF;
-	padding: 10px;
+	padding: 5px;
 
+}
+
+#form h1{
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	color: #5A5A5A;
+	padding-top: 150px;
+}
+
+@media only screen and (max-width: 767px){
+	#form h1{
+		padding: 0px 0px 40px 0px;
+		text-align: center;
+	}
+	#form .mobile-correction{
+		margin-bottom: 15px;
+	}
+}
+
+.btn-form{
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  500;
+	background-color: #881721;
+	border-color: #881721;
+	border-color: #881721;
+}
+.btn-form:hover{
+	background-color: #75111a;
 }
