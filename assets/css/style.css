@@ -259,3 +259,118 @@
 .accordion-button:not(.collapsed)::after {
     background-image: none;
 }
+
+#firm{
+	padding: 70px 0px;
+	background-color: #494949;
+}
+
+#firm figure{
+	text-align: center;
+}
+
+#firm figure img{
+	width: 50%;
+	margin-bottom: 20px
+}
+
+#firm figure figcaption{
+	color: #fff;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	font-size: 18px;
+	line-height: 20px
+}
+
+
+#firm figure figcaption span{
+	color: #fff;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  500;
+	font-size: 14px;
+}
+
+#contact{
+	background: linear-gradient( 90deg, #FF4646 50%, #C60101 50%);
+}
+
+#contact .whatsapp{
+	background-color: #FF4646;
+	padding: 20px 30px 10px 40px;
+}
+
+#contact .local{
+	background-color: #EF0101;
+	padding: 20px 30px 10px 40px;
+}
+
+#contact .email{
+	background-color: #C60101;
+	padding: 20px 30px 10px 40px;
+}
+
+#contact a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#contact a h6{
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  700;
+	font-size: 20px;
+	line-height: 5px;
+}
+
+#contact a p{
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  500;
+	font-size: 15px;
+}
+
+#contact article{
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	position: relative;
+	top: 8px;
+}
+
+#contact img{
+	float: left;
+	position: relative;
+	top: 10px;
+}
+
+#contact .email img{
+	top: 15px;
+}
+
+#form{
+	padding: 70px;
+	background-image: url(../images/pattern.png);
+}
+
+#form form{
+	background: linear-gradient(180deg, #EF0101 0%, #FF6767 32.81%, #C60101 78.65%);
+	background-size: contain;
+	border-radius: 4px;
+	padding: 30px;
+}
+
+#form form input{
+	border:none !important;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	box-shadow: -6px 7px 13px rgba(0, 0, 0, 0.15) !important;
+}
+
+.title-input{
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-weight:  800;
+	font-size: 17px;
+	color: #FFF;
+	padding: 10px;
+
+}
