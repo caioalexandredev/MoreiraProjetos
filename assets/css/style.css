@@ -350,10 +350,14 @@
 	margin-bottom: 20px;
 	transition: 0.3s linear;
 }
-.btn-secondary:hover{
+.btn-secondary:hover, .btn-secondary.active, .btn-secondary:after, .btn-secondary:focus, .btn-primary{
 	background-color: #FF3232;
 	border-color: #FF3232;
 	filter: drop-shadow(-12px 5px 10px rgba(0, 0, 0, 0.3));
+}.btn-secondary:focus, .btn-primary:focus{
+	-webkit-box-shadow: none!important;
+    box-shadow: none!important;
+	outline: none !important;
 }
 
 .proj-img img{
@@ -535,6 +539,7 @@
 	border-color: #881721;
 	border-color: #881721;
 }
-.btn-form:hover{
+.btn-form:hover, .btn-primary:hover, #form-link:hover{
 	background-color: #75111a;
+	border-radius: 5px;
 }
