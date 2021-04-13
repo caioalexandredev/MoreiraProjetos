@@ -13,14 +13,25 @@ Projeto inicial de desenvolvimento de uma Landing Page direcionada a conversão 
 - [x] Wireframe Digital (20/03/2021)
 - [x] Prototipo Visual - (28/03/2021)
 - [x] Prototipo Interativo (Html, Css e Javascript) - (05/04/2021)
-- [ ] Produto Final pronto para a hospedagem (Otimizações e PHP Mail)(10/04/2021)
+- [x] Produto Final pronto para a hospedagem (Otimizações e PHP Mail)(10/04/2021)
+- [x] Otimizações de Imagens, Ajustes de SEO e Alinhamento no Page Speed do Google (13/04/2021)
+- [ ] Integração do Google Analytics (15/04/2021)
+- [ ] Hospedagem (15/04/2021) (Prazo Cliente Final, Servidor, Contratação)
 
 **Observação:** Solicitado 4 dia de tolerância a mais nos prazo maximos sendo assim, a partir da entrega do projeto do wireframe digital, 21 (etapas principais de desenvolvimento) + 4 dias de tolerância, resulta em 25 dias de desenvolvimento corrido.
 
 **Observação:** Demais atualizações do projeto, que serão em pequenas etapas serão vistas através do commits (Atualizações do Código-Fonte).
+
+**Observação:** Adicionado dias a mais de Desenvolvimento para upgrades de perfomace e acabamentos na estrutura visual.
 
 ### Protótipo Visual
 O protótipo foi feito utilizando a ferramenta colaborariva de prototipação Figma com apoio do software de manipulção de imagens photoshop.
 
 #### Link do Protótipo Visual Online
 https://www.figma.com/proto/9D7EMVMNyPcf4NYUntjfan/Moreira-Projetos---Prot%C3%B3tipo-Visual?node-id=1%3A2&scaling=scale-down-width&page-id=0%3A1
+
+### Otimizações
+
+#### Imagens
+Todas adaptadas para o formato JPG com qualidade minima de resolução boa para visualização e tamanho adequado para a visualização WEB
+
