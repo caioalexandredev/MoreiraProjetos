@@ -65,11 +65,14 @@
 	text-align:center;
 	padding-right: 20px;
 	padding-left: 20px;
+	background-size: cover;
+	background-size: center;
 }
 
 .banner img{
 	width: 50%;
 	padding-top: 80px;
+	max-width: 690px;
 }
 @media only screen and (max-width: 1199px){
 	.banner img{
