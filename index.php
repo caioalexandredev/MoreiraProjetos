@@ -617,11 +617,11 @@
 						</a>
 					</div>
 					<div class="col-md-4 email">
-						<a target="_blank" href="mailto:moreiraprojetosaux@gmail.com">
+						<a target="_blank" href="mailto:contato@moreiraprojetos.com.br">
 							<img src="assets/images/email.png" alt="">
 							<article>
 								<h6>Nos Envie um Email</h6>
-								<p>moreiraprojetosaux@gmail.com</p>
+								<p>contato@moreiraprojetos.com.br</p>
 							<article>
 						</a>
 					</div>
@@ -636,26 +636,26 @@
 						<h1 data-aos="fade-left" data-aos-duration="2000" class="aos-init aos-animate">Preencha os dados que nos falamos com você!</h1>
 					</div>
 					<div class="col-md-6">
-						<form method="POST" action="">
+						<form method="POST" id="formcontact" action="php/contato.php">
 							<div class="mb-3">
-								<input type="text" class="form-control" placeholder="Nome">
+								<input type="text" name="name" class="form-control" placeholder="Nome">
 							</div>
 							<div class="mb-3">
-								<input type="email" class="form-control" placeholder="Email">
+								<input type="email" name="email" class="form-control" placeholder="Email">
 							</div>
 							<div class="mb-3 row">
 								<div class="col-md-6">
-									<input type="text" class="form-control mobile-correction" placeholder="Motivo de Contato">
+									<input type="text" name="subject" class="form-control mobile-correction" placeholder="Motivo de Contato">
 								</div>
 								<div class="col-md-6">
-									<input type="email" class="form-control" placeholder="Telefone">
+									<input type="text" name="telefone" class="form-control" placeholder="Telefone">
 								</div>
 							</div>
 							<p class="title-input">Mensagem</p>
 							<div class="mb-3">
-							    <textarea class="form-control" rows="6"></textarea>
+							    <textarea name="contact" class="form-control" rows="6"></textarea>
 							</div>
-							<button type="button" data-bs-toggle="modal" data-bs-target="#aviso-envio" style="width: 100%; margin-bottom: 0px;" class="btn btn-danger btn-form">Enviar dados de Contato</button>
+							<button type="submit" style="width: 100%; margin-bottom: 0px;" class="btn btn-danger btn-form">Enviar dados de Contato</button>
 						</form>
 					</div>
 				</div>
@@ -980,6 +980,36 @@
 					getElementsByClassName("comercial").classList.add("active");
 				}
 			}
+			
+$("#formcontact").submit(function(event) {
+
+				event.preventDefault();
+
+				var dados = $(this).serialize();
+
+				var $form = $(this),
+					url = $form.attr('action'),
+					type = $form.attr('method'),
+					myModal = $form[0].firstElementChild.id,
+					referrer = document.referrer;
+
+				$.ajaxSetup({timeout: 0});
+				$.ajax({
+					url: url,
+					type: 'POST', 
+					data: new FormData(this),
+					processData: false,
+					contentType: false,
+					cache: false,    
+					success: function(retorno) {
+
+						var myModal = new bootstrap.Modal(document.getElementById('aviso-envio'));
+						myModal.show();
+						
+					}
+				});
+			});
+			
 	</script>
 	
 	<div id="aviso-envio" class="modal fade" tabindex="-1">

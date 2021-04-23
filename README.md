@@ -15,8 +15,8 @@ Projeto inicial de desenvolvimento de uma Landing Page direcionada a conversão 
 - [x] Prototipo Interativo (Html, Css e Javascript) - (05/04/2021)
 - [x] Produto Final pronto para a hospedagem (Otimizações e PHP Mail)(10/04/2021)
 - [x] Otimizações de Imagens, Ajustes de SEO e Alinhamento no Page Speed do Google (13/04/2021)
-- [ ] Integração do Google Analytics (15/04/2021)
-- [ ] Hospedagem (15/04/2021) (Prazo Cliente Final, Servidor, Contratação)
+- [x] Integração do Google Analytics (15/04/2021)
+- [x] Hospedagem (15/04/2021) (Prazo Cliente Final, Servidor, Contratação)
 
 **Observação:** Solicitado 4 dia de tolerância a mais nos prazo maximos sendo assim, a partir da entrega do projeto do wireframe digital, 21 (etapas principais de desenvolvimento) + 4 dias de tolerância, resulta em 25 dias de desenvolvimento corrido.
 
